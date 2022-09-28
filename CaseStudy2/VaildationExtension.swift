@@ -20,9 +20,7 @@ extension UIViewController {
             showAlert(msg: "Name field can not be empty")
             return false
         }
-        let regEx = "^([A-Za-z]{4,})$"
-        let validName = NSPredicate(format: "SELF MATCHES %@", regEx)
-        if !validName.evaluate(with: userName) {
+        if userName.count < 4 {
             showAlert(msg: "Invalid Name")
             return false
         }
