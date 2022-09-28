@@ -87,7 +87,6 @@ class DBManager: NSObject {
         
         do {
             try managerContextObject.save()
-            print("Store successfully")
         } catch (let error) {
             print(error.localizedDescription)
         }
