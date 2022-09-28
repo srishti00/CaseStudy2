@@ -747,6 +747,12 @@
                                     <action selector="backToShoppingButtonClicked:" destination="xmn-xw-nBX" eventType="touchUpInside" id="eG4-Xa-4hq"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thank You for Shopping" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zz9-EB-CA9">
+                                <rect key="frame" x="30" y="214" width="354" height="100.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="42"/>
+                                <color key="textColor" systemColor="systemPinkColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="x5Y-bA-doB"/>
                         <color key="backgroundColor" red="0.96802580136923611" green="1" blue="0.58776870506610512" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -754,9 +760,12 @@
                             <constraint firstItem="x5Y-bA-doB" firstAttribute="trailing" secondItem="dve-hg-aiW" secondAttribute="trailing" constant="50" id="3nx-ng-jp7">
                                 <variation key="heightClass=regular-widthClass=regular" constant="250"/>
                             </constraint>
+                            <constraint firstItem="Zz9-EB-CA9" firstAttribute="leading" secondItem="x5Y-bA-doB" secondAttribute="leading" constant="30" id="EP3-Y3-tXs"/>
+                            <constraint firstItem="Zz9-EB-CA9" firstAttribute="top" secondItem="x5Y-bA-doB" secondAttribute="top" constant="170" id="NR6-Ck-6KM"/>
                             <constraint firstItem="x5Y-bA-doB" firstAttribute="bottom" secondItem="dve-hg-aiW" secondAttribute="bottom" constant="251" id="cbb-Fe-snF">
                                 <variation key="heightClass=regular-widthClass=regular" constant="350"/>
                             </constraint>
+                            <constraint firstItem="x5Y-bA-doB" firstAttribute="trailing" secondItem="Zz9-EB-CA9" secondAttribute="trailing" constant="30" id="l0m-2D-dzK"/>
                             <constraint firstItem="dve-hg-aiW" firstAttribute="leading" secondItem="x5Y-bA-doB" secondAttribute="leading" constant="50" id="vzS-AW-1Kj">
                                 <variation key="heightClass=regular-widthClass=regular" constant="250"/>
                             </constraint>
