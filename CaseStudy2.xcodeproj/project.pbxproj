@@ -29,8 +29,6 @@
 		9AEBD31A28DE143B0007CFC4 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEBD31928DE143B0007CFC4 /* CartViewController.swift */; };
 		9AEBD31C28DEF8F60007CFC4 /* ProductCellSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEBD31B28DEF8F60007CFC4 /* ProductCellSelectViewController.swift */; };
 		9AED1DBD28DF61BA009AC9E6 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AED1DBC28DF61BA009AC9E6 /* NotificationViewController.swift */; };
-		9AED1E3E28E05CE5009AC9E6 /* LocalNotificationFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AED1E3B28E05CD0009AC9E6 /* LocalNotificationFramework.framework */; };
-		9AED1E3F28E05CE5009AC9E6 /* LocalNotificationFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9AED1E3B28E05CD0009AC9E6 /* LocalNotificationFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9AED1E4828E21253009AC9E6 /* OrderPlacedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AED1E4728E21253009AC9E6 /* OrderPlacedViewController.swift */; };
 		9AED1E5028E31E88009AC9E6 /* SignUpVCOutletTestFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AED1E4F28E31E88009AC9E6 /* SignUpVCOutletTestFile.swift */; };
 		9AED1E5228E32422009AC9E6 /* LoginOutletTestFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AED1E5128E32422009AC9E6 /* LoginOutletTestFile.swift */; };
@@ -42,6 +40,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		9A246EA928E595C200AF65A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A246EA428E595C100AF65A2 /* LocalNotificationFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9AED1E0C28E05A12009AC9E6;
+			remoteInfo = LocalNotificationFramework;
+		};
+		9A246EAB28E595C200AF65A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A246EA428E595C100AF65A2 /* LocalNotificationFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9AED1E1628E05A12009AC9E6;
+			remoteInfo = LocalNotificationFrameworkTests;
+		};
 		9AC709EC28DAD8C40074DE7F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9AC709CD28DAD8C10074DE7F /* Project object */;
@@ -56,20 +68,6 @@
 			remoteGlobalIDString = 9AC709D428DAD8C10074DE7F;
 			remoteInfo = CaseStudy2;
 		};
-		9AED1E3A28E05CD0009AC9E6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9AED1E3528E05CD0009AC9E6 /* LocalNotificationFramework.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 9AED1E0C28E05A12009AC9E6;
-			remoteInfo = LocalNotificationFramework;
-		};
-		9AED1E3C28E05CD0009AC9E6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9AED1E3528E05CD0009AC9E6 /* LocalNotificationFramework.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 9AED1E1628E05A12009AC9E6;
-			remoteInfo = LocalNotificationFrameworkTests;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -79,7 +77,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				9AED1E3F28E05CE5009AC9E6 /* LocalNotificationFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -94,6 +91,7 @@
 		4AED3E85C7E2579771465864 /* Pods_CaseStudy2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CaseStudy2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CD32B5BC232FB0FEB6E3A6F /* Pods-CaseStudy2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaseStudy2.release.xcconfig"; path = "Target Support Files/Pods-CaseStudy2/Pods-CaseStudy2.release.xcconfig"; sourceTree = "<group>"; };
 		8AC702EF74F1D1517963BA81 /* Pods-CaseStudy2-CaseStudy2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaseStudy2-CaseStudy2UITests.release.xcconfig"; path = "Target Support Files/Pods-CaseStudy2-CaseStudy2UITests/Pods-CaseStudy2-CaseStudy2UITests.release.xcconfig"; sourceTree = "<group>"; };
+		9A246EA428E595C100AF65A2 /* LocalNotificationFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LocalNotificationFramework.xcodeproj; path = LocalNotificationFramework/LocalNotificationFramework.xcodeproj; sourceTree = SOURCE_ROOT; };
 		9A45187028DB1B3C00F1BF4C /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		9A45187228DB1F0E00F1BF4C /* VaildationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaildationExtension.swift; sourceTree = "<group>"; };
 		9A4B055228DF470C00EF66D8 /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
@@ -120,7 +118,6 @@
 		9AEBD31928DE143B0007CFC4 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
 		9AEBD31B28DEF8F60007CFC4 /* ProductCellSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCellSelectViewController.swift; sourceTree = "<group>"; };
 		9AED1DBC28DF61BA009AC9E6 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
-		9AED1E3528E05CD0009AC9E6 /* LocalNotificationFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LocalNotificationFramework.xcodeproj; path = ../../LocalNotificationFramework/LocalNotificationFramework.xcodeproj; sourceTree = "<group>"; };
 		9AED1E4728E21253009AC9E6 /* OrderPlacedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderPlacedViewController.swift; sourceTree = "<group>"; };
 		9AED1E4F28E31E88009AC9E6 /* SignUpVCOutletTestFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVCOutletTestFile.swift; sourceTree = "<group>"; };
 		9AED1E5128E32422009AC9E6 /* LoginOutletTestFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginOutletTestFile.swift; sourceTree = "<group>"; };
@@ -135,7 +132,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AED1E3E28E05CE5009AC9E6 /* LocalNotificationFramework.framework in Frameworks */,
 				A159A72DDA87540C8C80BA28 /* Pods_CaseStudy2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -182,6 +178,15 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		9A246EA528E595C100AF65A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A246EAA28E595C200AF65A2 /* LocalNotificationFramework.framework */,
+				9A246EAC28E595C200AF65A2 /* LocalNotificationFrameworkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		9AC709CC28DAD8C10074DE7F = {
 			isa = PBXGroup;
 			children = (
@@ -207,7 +212,7 @@
 		9AC709D728DAD8C10074DE7F /* CaseStudy2 */ = {
 			isa = PBXGroup;
 			children = (
-				9AED1E3528E05CD0009AC9E6 /* LocalNotificationFramework.xcodeproj */,
+				9A246EA428E595C100AF65A2 /* LocalNotificationFramework.xcodeproj */,
 				9AC709D828DAD8C10074DE7F /* AppDelegate.swift */,
 				9AC709DA28DAD8C20074DE7F /* SceneDelegate.swift */,
 				9AC709DC28DAD8C20074DE7F /* LoginViewController.swift */,
@@ -252,15 +257,6 @@
 				9AC709FB28DAD8C40074DE7F /* CaseStudy2UITestsLaunchTests.swift */,
 			);
 			path = CaseStudy2UITests;
-			sourceTree = "<group>";
-		};
-		9AED1E3628E05CD0009AC9E6 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				9AED1E3B28E05CD0009AC9E6 /* LocalNotificationFramework.framework */,
-				9AED1E3D28E05CD0009AC9E6 /* LocalNotificationFrameworkTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -361,8 +357,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 9AED1E3628E05CD0009AC9E6 /* Products */;
-					ProjectRef = 9AED1E3528E05CD0009AC9E6 /* LocalNotificationFramework.xcodeproj */;
+					ProductGroup = 9A246EA528E595C100AF65A2 /* Products */;
+					ProjectRef = 9A246EA428E595C100AF65A2 /* LocalNotificationFramework.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -375,18 +371,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		9AED1E3B28E05CD0009AC9E6 /* LocalNotificationFramework.framework */ = {
+		9A246EAA28E595C200AF65A2 /* LocalNotificationFramework.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = LocalNotificationFramework.framework;
-			remoteRef = 9AED1E3A28E05CD0009AC9E6 /* PBXContainerItemProxy */;
+			remoteRef = 9A246EA928E595C200AF65A2 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		9AED1E3D28E05CD0009AC9E6 /* LocalNotificationFrameworkTests.xctest */ = {
+		9A246EAC28E595C200AF65A2 /* LocalNotificationFrameworkTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = LocalNotificationFrameworkTests.xctest;
-			remoteRef = 9AED1E3C28E05CD0009AC9E6 /* PBXContainerItemProxy */;
+			remoteRef = 9A246EAB28E595C200AF65A2 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
